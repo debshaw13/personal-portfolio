@@ -1,5 +1,5 @@
 /* --- Navbar --- */
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   #navbarMenuToggler,
   #navbarMenu,
   #mdLogo {
@@ -11,9 +11,9 @@
   background-color: #005;
 }
 
-#xlNavbar {
+#lgNavbar {
   height: 56px;
-  max-width: 1200px;
+  max-width: 992px;
 }
 
 .navbar-brand {
@@ -27,20 +27,17 @@
   color: white;
 }
 
-#xlNavbar .nav-item:focus,
-#xlNavbar .nav-item:hover {
+#lgNavbar .nav-item:focus,
+#lgNavbar .nav-item:hover {
   color: #d0d0d0 !important;
   border-bottom: 1px solid white;
 }
 
 /* --- Hero content --- */
-
-#airbnb-clone {
-  overflow-x: scroll;
-
+.container {
+  max-width: 992px;
 }
 
-#airbnb-box {
-    max-height: 360px;
-    overflow-x: scroll;
+html {
+  scroll-behavior: smooth;
 }
