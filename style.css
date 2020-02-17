@@ -32,3 +32,15 @@
   color: #d0d0d0 !important;
   border-bottom: 1px solid white;
 }
+
+/* --- Hero content --- */
+
+#airbnb-clone {
+  overflow-x: scroll;
+
+}
+
+#airbnb-box {
+    max-height: 360px;
+    overflow-x: scroll;
+}
