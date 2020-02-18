@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 /* --- Navbar --- */
 @media (min-width: 992px) {
   #navbarMenuToggler,
@@ -31,6 +35,11 @@
 #lgNavbar .nav-item:hover {
   color: #d0d0d0 !important;
   border-bottom: 1px solid white;
+}
+
+#navbarMenu .nav-item:focus,
+#navbarMenu .nav-item:hover {
+  color: #d0d0d0 !important;
 }
 
 /* --- Hero content --- */
